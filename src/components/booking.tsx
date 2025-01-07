@@ -31,7 +31,7 @@ export function Booking() {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4"
       >
-        <h2 className="text-4xl font-bold mb-8 text-center text-white">Book an Appointment</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center text-white mt-20">Book an Appointment</h2>
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <motion.div

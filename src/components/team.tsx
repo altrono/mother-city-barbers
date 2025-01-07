@@ -47,7 +47,7 @@ export function Team() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4 text-white">Meet Our Team</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white mt-20">Meet Our Team</h2>
           <p className="text-white/80">Expert Barbers at Your Service</p>
         </motion.div>
 

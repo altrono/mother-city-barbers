@@ -5,7 +5,7 @@ import { Facebook, Instagram, Twitter } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white py-12 border-t border-gray-700">
+    <footer className="bg-black text-white py-12 border-t border-gray-">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <motion.div
@@ -35,10 +35,10 @@ export function Footer() {
           >
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/mothercitybarbersatlong/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/mother_city_barbers/?hl=en"target="_blank" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

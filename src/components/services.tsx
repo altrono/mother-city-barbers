@@ -38,7 +38,7 @@ export function Services() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4 text-white">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white mt-20">Our Services</h2>
           <p className="text-white">Professional Care For Your Style</p>
         </motion.div>
 

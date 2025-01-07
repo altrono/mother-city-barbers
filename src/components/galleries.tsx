@@ -53,7 +53,7 @@ export function Gallery() {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4 mb-12 text-center"
       >
-        <h2 className="text-4xl font-bold mb-4 text-white">Our Gallery</h2>
+        <h2 className="text-4xl font-bold mb-4 text-white mt-20">Our Gallery</h2>
         <p className="text-white/80 text-lg">Experience the art of barbering</p>
       </motion.div>
 
