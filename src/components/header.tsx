@@ -6,7 +6,8 @@ import { Phone, Clock, MapPin, Menu, X } from 'lucide-react'
 import Link from 'next/link'
 
 export function Header() {
-  const [isScrolled, setIsScrolled] = useState(false)
+
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { scrollY } = useScroll()
 
@@ -18,7 +19,7 @@ export function Header() {
 
   useEffect(() => {
     const updateScrollStatus = () => {
-      setIsScrolled(window.scrollY > 150)
+
     }
 
     window.addEventListener('scroll', updateScrollStatus)

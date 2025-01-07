@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion, } from "framer-motion"
 import Image from "next/image"
 
 const galleryImages = [
@@ -40,10 +40,7 @@ const galleryImages = [
 
 export function Gallery() {
   const containerRef = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"]
-  })
+
 
   return (
     <div id="gallery" ref={containerRef} className="bg-black py-20">
@@ -60,16 +57,12 @@ export function Gallery() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {galleryImages.map((item, index) => {
-            const translateY = useTransform(
-              scrollYProgress,
-              [0, 1],
-              [0, index % 2 === 0 ? -50 : 50]
-            )
+            
 
             return (
               <motion.div
                 key={index}
-                style={{ y: translateY }}
+               
                 className="relative group"
               >
                 <motion.div
